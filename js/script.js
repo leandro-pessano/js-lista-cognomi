@@ -15,3 +15,4 @@ listaCognomi.push(inputCognome);
 console.log(listaCognomi);
 listaCognomi.sort();
 console.log(listaCognomi);
+console.log(listaCognomi.indexOf(inputCognome) + 1);
