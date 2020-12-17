@@ -13,3 +13,5 @@ toLow = inputCognome.substring(1).toLowerCase();
 inputCognome = toUp + toLow;
 listaCognomi.push(inputCognome);
 console.log(listaCognomi);
+listaCognomi.sort();
+console.log(listaCognomi);
